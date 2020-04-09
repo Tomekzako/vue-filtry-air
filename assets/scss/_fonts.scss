@@ -1,0 +1,35 @@
+/* FONTS : Custom Philips font. */
+
+@font-face {
+  font-family: "CentraleSansBold";
+  src: url("../fonts/CentraleSansBold.eot") format("embedded-opentype"), url("../fonts/CentraleSansBold.otf") format("opentype"),
+    url("../fonts/CentraleSansBold.woff") format("woff"), url("../fonts/CentraleSansBold.ttf") format("truetype"),
+    url("../fonts/CentraleSansBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CentraleSansBook";
+  src: url("../fonts/CentraleSansBook.eot") format("embedded-opentype"), url("../fonts/CentraleSansBook.otf") format("opentype"),
+    url("../fonts/CentraleSansBook.woff") format("woff"), url("../fonts/CentraleSansBook.ttf") format("truetype"),
+    url("../fonts/CentraleSansBook.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CentraleSansMedium";
+  src: url("../fonts/CentraleSansMedium.eot") format("embedded-opentype"), url("../fonts/CentraleSansMedium.woff") format("woff"),
+    url("../fonts/CentraleSansMedium.ttf") format("truetype"), url("../fonts/CentraleSansMedium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CentraleSansLight";
+  src: url("../fonts/CentraleSansLight.eot") format("embedded-opentype"), url("../fonts/CentraleSansLight.woff") format("woff"),
+    url("../fonts/CentraleSansLight.ttf") format("truetype"), url("../fonts/CentraleSansLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

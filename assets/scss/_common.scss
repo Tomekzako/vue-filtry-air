@@ -1,0 +1,147 @@
+@import "_variables";
+
+.phi_text-center {
+  text-align: center;
+}
+
+.phi_text-right {
+  text-align: right;
+}
+
+.phi_seperator-20 {
+  height: 20px;
+  clear: both;
+}
+
+.phi_seperator-30 {
+  height: 30px;
+  clear: both;
+}
+
+.phi_img-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.phi_relative {
+  position: relative;
+}
+
+.phi_display-inline-block {
+  display: inline-block;
+}
+
+/*.phi_row {
+    width: 100%;
+}*/
+.phi_vertical-center,
+.phi_center-vertical {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-align-items: center;
+}
+
+.phi_flex-wrapper {
+  display: flex;
+}
+
+.phi_flex-end {
+  align-self: flex-end;
+}
+
+.phi_row.phi_is-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.phi_row.phi_is-flex > [class*="phi_col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.phi_row.phi_is-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.phi_row.phi_is-flex > [class*="phi_col-"] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@include md {
+  .phi_text-center-md {
+    text-align: center;
+  }
+
+  .phi_center-block-md {
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+  }
+
+  .phi_img-responsive-md {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@include sm {
+  .phi_text-center-sm {
+    text-align: center;
+  }
+
+  .phi_center-block-sm {
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+  }
+
+  .phi_img-responsive-sm {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@include xs {
+  .phi_text-center-xs {
+    text-align: center;
+  }
+
+  .phi_center-block-xs {
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+  }
+
+  .phi_img-responsive-xs {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

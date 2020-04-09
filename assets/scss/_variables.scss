@@ -1,0 +1,61 @@
+$prefix: "phi_";
+$default_font_family: "CentraleSansBook";
+$default_font_size: 14px;
+$deault_line_height: 1.4em;
+
+$max-container-width: 1920px;
+$container-width: 1750px;
+$xs-width: 480px;
+$sm-width: 480px;
+$md-width: 800px;
+$lg-width: 960px;
+$xlg-width: 1200px;
+$xxlg-width: 1500px;
+
+@mixin xs {
+  @media (max-width: #{$xs-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: #{$sm-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$md-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$lg-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin xlg {
+  @media (max-width: #{$xlg-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin xxlg {
+  @media (max-width: #{$xxlg-width - 1px}) {
+    @content;
+  }
+}
+
+// @mixin xs-sm {
+//   @media (min-width: #{$xs-width}) and (max-width: #{$sm-width - 1px}) {
+//     @content;
+//   }
+// }
+
+// @mixin sm-md {
+//   @media (min-width: #{$sm-width}) and (max-width: #{$md-width - 1px}) {
+//     @content;
+//   }
+// }

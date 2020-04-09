@@ -1,0 +1,32 @@
+Jak wymieniæ filtry:
+Przed rozpoczêciem: Nale¿y wymieniæ filtr, gdy alarm wymiany filtra œwieci na czerwono.
+Po zmianie filtrów umyj rêce. Nie dotykaj pofa³dowanej powierzchni filtra i nie w¹chaj go,
+poniewa¿ nagromadzi³y siê na nim zanieczyszczenia z powietrza.
+
+*----------------------------------*
+
+Je¿eli na wyœwietlaczu pojawi siê symbol:
+Zapala siê alarm wymiany filtra.
+
+Wykonaj nastêpuj¹ce czynnoœci:
+Wymieñ filtr zintegrowany filtr 3w1 (FY4440/30)
+
+*----------------------------------*
+
+KROK 1:
+Wy³¹cz oczyszczacz powietrza i od³¹cz go od zasilania.
+Wyjmij zu¿yty filtr powietrza zgodnie ze stanem wskaŸnika
+ostrzegawczego filtra wyœwietlanym na ekranie.
+Wyrzuæ zu¿yty filtr.
+
+KROK 2:
+Usuñ z nowego filtra wszystkie elementy opakowania.
+Umieœæ nowe filtry w oczyszczaczu powietrza.
+
+KROK 3:
+Pod³¹cz wtyczkê  oczyszczacza powietrza do zasilania.
+W³¹cz urz¹dzenie, w ci¹gu 15 sekund od w³¹czenia zasilania dotknij przycisków (rys. Krok 3)
+przytrzymaj je przez 3 sekundy, aby zresetowaæ licznik okresu u¿ytkowania
+filtra.
+
+*----------------------------------*

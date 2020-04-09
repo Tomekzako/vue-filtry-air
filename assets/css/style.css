@@ -1,0 +1,3764 @@
+/* FONTS : Custom Philips font. */
+@font-face {
+  font-family: "CentraleSansBold";
+  src: url("../fonts/CentraleSansBold.eot") format("embedded-opentype"), url("../fonts/CentraleSansBold.otf") format("opentype"), url("../fonts/CentraleSansBold.woff") format("woff"), url("../fonts/CentraleSansBold.ttf") format("truetype"), url("../fonts/CentraleSansBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CentraleSansBook";
+  src: url("../fonts/CentraleSansBook.eot") format("embedded-opentype"), url("../fonts/CentraleSansBook.otf") format("opentype"), url("../fonts/CentraleSansBook.woff") format("woff"), url("../fonts/CentraleSansBook.ttf") format("truetype"), url("../fonts/CentraleSansBook.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CentraleSansMedium";
+  src: url("../fonts/CentraleSansMedium.eot") format("embedded-opentype"), url("../fonts/CentraleSansMedium.woff") format("woff"), url("../fonts/CentraleSansMedium.ttf") format("truetype"), url("../fonts/CentraleSansMedium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CentraleSansLight";
+  src: url("../fonts/CentraleSansLight.eot") format("embedded-opentype"), url("../fonts/CentraleSansLight.woff") format("woff"), url("../fonts/CentraleSansLight.ttf") format("truetype"), url("../fonts/CentraleSansLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  overflow-x: hidden; }
+
+#philips_m_00 #philips_m_01 {
+  background: #fff;
+  font-family: "CentraleSansBook"; }
+
+#philips_m_00 #philips_m_01 {
+  /*!
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+  /* button {
+      border-radius: 0
+    }
+
+    button:focus {
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focus-ring-color
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit
+    }
+
+    button,
+    input {
+      overflow: visible
+    }
+
+    button,
+    select {
+      text-transform: none
+    }
+
+    [type=button],
+    [type=reset],
+    [type=submit],
+    button {
+      -webkit-appearance: button
+    }
+
+    [type=button]::-moz-focus-inner,
+    [type=reset]::-moz-focus-inner,
+    [type=submit]::-moz-focus-inner,
+    button::-moz-focus-inner {
+      padding: 0;
+      border-style: none
+    }
+
+    input[type=checkbox],
+    input[type=radio] {
+      box-sizing: border-box;
+      padding: 0
+    }
+
+    input[type=date],
+    input[type=datetime-local],
+    input[type=month],
+    input[type=time] {
+      -webkit-appearance: listbox
+    }
+
+    textarea {
+      overflow: auto;
+      resize: vertical
+    }
+
+    fieldset {
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0
+    }
+
+    legend {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin-bottom: .5rem;
+      font-size: 1.5rem;
+      line-height: inherit;
+      color: inherit;
+      white-space: normal
+    }
+
+    progress {
+      vertical-align: baseline
+    } */
+  /*# sourceMappingURL=bootstrap.min.css.map */
+  /*.phi_row {
+    width: 100%;
+}*/ }
+  #philips_m_00 #philips_m_01 *,
+  #philips_m_00 #philips_m_01 ::after,
+  #philips_m_00 #philips_m_01 ::before {
+    box-sizing: border-box; }
+  #philips_m_00 #philips_m_01 html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent; }
+  #philips_m_00 #philips_m_01 article,
+  #philips_m_00 #philips_m_01 aside,
+  #philips_m_00 #philips_m_01 figcaption,
+  #philips_m_00 #philips_m_01 figure,
+  #philips_m_00 #philips_m_01 footer,
+  #philips_m_00 #philips_m_01 header,
+  #philips_m_00 #philips_m_01 hgroup,
+  #philips_m_00 #philips_m_01 main,
+  #philips_m_00 #philips_m_01 nav,
+  #philips_m_00 #philips_m_01 section {
+    display: block; }
+  #philips_m_00 #philips_m_01 body {
+    margin: 0; }
+  #philips_m_00 #philips_m_01 [tabindex="-1"]:focus {
+    outline: 0 !important; }
+  #philips_m_00 #philips_m_01 hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible; }
+  #philips_m_00 #philips_m_01 h1,
+  #philips_m_00 #philips_m_01 h2,
+  #philips_m_00 #philips_m_01 h3,
+  #philips_m_00 #philips_m_01 h4,
+  #philips_m_00 #philips_m_01 h5,
+  #philips_m_00 #philips_m_01 h6 {
+    margin-top: 0;
+    margin-bottom: .5rem; }
+  #philips_m_00 #philips_m_01 p {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  #philips_m_00 #philips_m_01 abbr[data-original-title],
+  #philips_m_00 #philips_m_01 abbr[title] {
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+    cursor: help;
+    border-bottom: 0;
+    text-decoration-skip-ink: none; }
+  #philips_m_00 #philips_m_01 address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit; }
+  #philips_m_00 #philips_m_01 dl,
+  #philips_m_00 #philips_m_01 ol,
+  #philips_m_00 #philips_m_01 ul {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  #philips_m_00 #philips_m_01 ol ol,
+  #philips_m_00 #philips_m_01 ol ul,
+  #philips_m_00 #philips_m_01 ul ol,
+  #philips_m_00 #philips_m_01 ul ul {
+    margin-bottom: 0; }
+  #philips_m_00 #philips_m_01 dt {
+    font-weight: 700; }
+  #philips_m_00 #philips_m_01 dd {
+    margin-bottom: .5rem;
+    margin-left: 0; }
+  #philips_m_00 #philips_m_01 blockquote {
+    margin: 0 0 1rem; }
+  #philips_m_00 #philips_m_01 b,
+  #philips_m_00 #philips_m_01 strong {
+    font-weight: bolder; }
+  #philips_m_00 #philips_m_01 small {
+    font-size: 80%; }
+  #philips_m_00 #philips_m_01 sub,
+  #philips_m_00 #philips_m_01 sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline; }
+  #philips_m_00 #philips_m_01 sub {
+    bottom: -.25em; }
+  #philips_m_00 #philips_m_01 sup {
+    top: -.5em; }
+  #philips_m_00 #philips_m_01 a {
+    text-decoration: none;
+    background-color: transparent; }
+  #philips_m_00 #philips_m_01 a:hover {
+    text-decoration: underline; }
+  #philips_m_00 #philips_m_01 a:active,
+  #philips_m_00 #philips_m_01 a:hover {
+    outline: 0; }
+  #philips_m_00 #philips_m_01 code,
+  #philips_m_00 #philips_m_01 kbd,
+  #philips_m_00 #philips_m_01 pre,
+  #philips_m_00 #philips_m_01 samp {
+    font-family: monospace;
+    font-size: 1em; }
+  #philips_m_00 #philips_m_01 pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto; }
+  #philips_m_00 #philips_m_01 figure {
+    margin: 0 0 1rem; }
+  #philips_m_00 #philips_m_01 img {
+    vertical-align: middle;
+    border-style: none; }
+  #philips_m_00 #philips_m_01 svg {
+    overflow: hidden;
+    vertical-align: middle; }
+  #philips_m_00 #philips_m_01 table {
+    border-collapse: collapse; }
+  #philips_m_00 #philips_m_01 caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom; }
+  #philips_m_00 #philips_m_01 th {
+    text-align: inherit; }
+  #philips_m_00 #philips_m_01 label {
+    display: inline-block;
+    margin-bottom: .5rem; }
+  #philips_m_00 #philips_m_01 [type=number]::-webkit-inner-spin-button,
+  #philips_m_00 #philips_m_01 [type=number]::-webkit-outer-spin-button {
+    height: auto; }
+  #philips_m_00 #philips_m_01 [type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none; }
+  #philips_m_00 #philips_m_01 [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  #philips_m_00 #philips_m_01 ::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button; }
+  #philips_m_00 #philips_m_01 output {
+    display: inline-block; }
+  #philips_m_00 #philips_m_01 summary {
+    display: list-item;
+    cursor: pointer; }
+  #philips_m_00 #philips_m_01 template {
+    display: none; }
+  #philips_m_00 #philips_m_01 [hidden] {
+    display: none !important; }
+  #philips_m_00 #philips_m_01 .phi_h1,
+  #philips_m_00 #philips_m_01 .phi_h2,
+  #philips_m_00 #philips_m_01 .phi_h3,
+  #philips_m_00 #philips_m_01 .phi_h4,
+  #philips_m_00 #philips_m_01 .phi_h5,
+  #philips_m_00 #philips_m_01 .phi_h6,
+  #philips_m_00 #philips_m_01 h1,
+  #philips_m_00 #philips_m_01 h2,
+  #philips_m_00 #philips_m_01 h3,
+  #philips_m_00 #philips_m_01 h4,
+  #philips_m_00 #philips_m_01 h5,
+  #philips_m_00 #philips_m_01 h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit; }
+  #philips_m_00 #philips_m_01 .phi_h1,
+  #philips_m_00 #philips_m_01 h1 {
+    font-size: 2.5rem; }
+  #philips_m_00 #philips_m_01 .phi_h2,
+  #philips_m_00 #philips_m_01 h2 {
+    font-size: 2rem; }
+  #philips_m_00 #philips_m_01 .phi_h3,
+  #philips_m_00 #philips_m_01 h3 {
+    font-size: 1.75rem; }
+  #philips_m_00 #philips_m_01 .phi_h4,
+  #philips_m_00 #philips_m_01 h4 {
+    font-size: 1.5rem; }
+  #philips_m_00 #philips_m_01 .phi_h5,
+  #philips_m_00 #philips_m_01 h5 {
+    font-size: 1.25rem; }
+  #philips_m_00 #philips_m_01 .phi_h6,
+  #philips_m_00 #philips_m_01 h6 {
+    font-size: 1rem; }
+  #philips_m_00 #philips_m_01 .phi_lead {
+    font-size: 1.25rem;
+    font-weight: 300; }
+  #philips_m_00 #philips_m_01 .phi_display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #philips_m_00 #philips_m_01 .phi_display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #philips_m_00 #philips_m_01 .phi_display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #philips_m_00 #philips_m_01 .phi_display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #philips_m_00 #philips_m_01 hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  #philips_m_00 #philips_m_01 .phi_small,
+  #philips_m_00 #philips_m_01 small {
+    font-size: 80%;
+    font-weight: 400; }
+  #philips_m_00 #philips_m_01 .phi_mark,
+  #philips_m_00 #philips_m_01 mark {
+    padding: .2em;
+    background-color: #fcf8e3; }
+  #philips_m_00 #philips_m_01 .phi_list-unstyled {
+    padding-left: 0;
+    list-style: none; }
+  #philips_m_00 #philips_m_01 .phi_list-inline {
+    padding-left: 0;
+    list-style: none; }
+  #philips_m_00 #philips_m_01 .phi_list-inline-item {
+    display: inline-block; }
+  #philips_m_00 #philips_m_01 .phi_list-inline-item:not(:last-child) {
+    margin-right: .5rem; }
+  #philips_m_00 #philips_m_01 .phi_initialism {
+    font-size: 90%;
+    text-transform: uppercase; }
+  #philips_m_00 #philips_m_01 .phi_blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem; }
+  #philips_m_00 #philips_m_01 .phi_blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d; }
+  #philips_m_00 #philips_m_01 .phi_blockquote-footer::before {
+    content: "\2014\00A0"; }
+  #philips_m_00 #philips_m_01 .phi_img-fluid {
+    max-width: 100%;
+    height: auto; }
+  #philips_m_00 #philips_m_01 .phi_img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto; }
+  #philips_m_00 #philips_m_01 .phi_figure {
+    display: inline-block; }
+  #philips_m_00 #philips_m_01 .phi_figure-img {
+    margin-bottom: .5rem;
+    line-height: 1; }
+  #philips_m_00 #philips_m_01 .phi_figure-caption {
+    font-size: 90%;
+    color: #6c757d; }
+  #philips_m_00 #philips_m_01 code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word; }
+  #philips_m_00 #philips_m_01 a > code {
+    color: inherit; }
+  #philips_m_00 #philips_m_01 kbd {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem; }
+  #philips_m_00 #philips_m_01 kbd kbd {
+    padding: 0;
+    font-size: 100%;
+    font-weight: 700; }
+  #philips_m_00 #philips_m_01 pre {
+    display: block;
+    font-size: 87.5%;
+    color: #212529; }
+  #philips_m_00 #philips_m_01 pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal; }
+  #philips_m_00 #philips_m_01 .phi_pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll; }
+  #philips_m_00 #philips_m_01 .phi_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_container {
+      max-width: 540px; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_container {
+      max-width: 720px; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_container {
+      max-width: 1140px; } }
+  #philips_m_00 #philips_m_01 .phi_container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  #philips_m_00 #philips_m_01 .phi_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; }
+  #philips_m_00 #philips_m_01 .phi_no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+  #philips_m_00 #philips_m_01 .phi_no-gutters > .col,
+  #philips_m_00 #philips_m_01 .phi_no-gutters > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0; }
+  #philips_m_00 #philips_m_01 .phi_col,
+  #philips_m_00 #philips_m_01 .phi_col-1,
+  #philips_m_00 #philips_m_01 .phi_col-10,
+  #philips_m_00 #philips_m_01 .phi_col-11,
+  #philips_m_00 #philips_m_01 .phi_col-12,
+  #philips_m_00 #philips_m_01 .phi_col-2,
+  #philips_m_00 #philips_m_01 .phi_col-3,
+  #philips_m_00 #philips_m_01 .phi_col-4,
+  #philips_m_00 #philips_m_01 .phi_col-5,
+  #philips_m_00 #philips_m_01 .phi_col-6,
+  #philips_m_00 #philips_m_01 .phi_col-7,
+  #philips_m_00 #philips_m_01 .phi_col-8,
+  #philips_m_00 #philips_m_01 .phi_col-9,
+  #philips_m_00 #philips_m_01 .phi_col-auto,
+  #philips_m_00 #philips_m_01 .phi_col-lg,
+  #philips_m_00 #philips_m_01 .phi_col-lg-1,
+  #philips_m_00 #philips_m_01 .phi_col-lg-10,
+  #philips_m_00 #philips_m_01 .phi_col-lg-11,
+  #philips_m_00 #philips_m_01 .phi_col-lg-12,
+  #philips_m_00 #philips_m_01 .phi_col-lg-2,
+  #philips_m_00 #philips_m_01 .phi_col-lg-3,
+  #philips_m_00 #philips_m_01 .phi_col-lg-4,
+  #philips_m_00 #philips_m_01 .phi_col-lg-5,
+  #philips_m_00 #philips_m_01 .phi_col-lg-6,
+  #philips_m_00 #philips_m_01 .phi_col-lg-7,
+  #philips_m_00 #philips_m_01 .phi_col-lg-8,
+  #philips_m_00 #philips_m_01 .phi_col-lg-9,
+  #philips_m_00 #philips_m_01 .phi_col-lg-auto,
+  #philips_m_00 #philips_m_01 .phi_col-md,
+  #philips_m_00 #philips_m_01 .phi_col-md-1,
+  #philips_m_00 #philips_m_01 .phi_col-md-10,
+  #philips_m_00 #philips_m_01 .phi_col-md-11,
+  #philips_m_00 #philips_m_01 .phi_col-md-12,
+  #philips_m_00 #philips_m_01 .phi_col-md-2,
+  #philips_m_00 #philips_m_01 .phi_col-md-3,
+  #philips_m_00 #philips_m_01 .phi_col-md-4,
+  #philips_m_00 #philips_m_01 .phi_col-md-5,
+  #philips_m_00 #philips_m_01 .phi_col-md-6,
+  #philips_m_00 #philips_m_01 .phi_col-md-7,
+  #philips_m_00 #philips_m_01 .phi_col-md-8,
+  #philips_m_00 #philips_m_01 .phi_col-md-9,
+  #philips_m_00 #philips_m_01 .phi_col-md-auto,
+  #philips_m_00 #philips_m_01 .phi_col-sm,
+  #philips_m_00 #philips_m_01 .phi_col-sm-1,
+  #philips_m_00 #philips_m_01 .phi_col-sm-10,
+  #philips_m_00 #philips_m_01 .phi_col-sm-11,
+  #philips_m_00 #philips_m_01 .phi_col-sm-12,
+  #philips_m_00 #philips_m_01 .phi_col-sm-2,
+  #philips_m_00 #philips_m_01 .phi_col-sm-3,
+  #philips_m_00 #philips_m_01 .phi_col-sm-4,
+  #philips_m_00 #philips_m_01 .phi_col-sm-5,
+  #philips_m_00 #philips_m_01 .phi_col-sm-6,
+  #philips_m_00 #philips_m_01 .phi_col-sm-7,
+  #philips_m_00 #philips_m_01 .phi_col-sm-8,
+  #philips_m_00 #philips_m_01 .phi_col-sm-9,
+  #philips_m_00 #philips_m_01 .phi_col-sm-auto,
+  #philips_m_00 #philips_m_01 .phi_col-xs,
+  #philips_m_00 #philips_m_01 .phi_col-xs-1,
+  #philips_m_00 #philips_m_01 .phi_col-xs-10,
+  #philips_m_00 #philips_m_01 .phi_col-xs-11,
+  #philips_m_00 #philips_m_01 .phi_col-xs-12,
+  #philips_m_00 #philips_m_01 .phi_col-xs-2,
+  #philips_m_00 #philips_m_01 .phi_col-xs-3,
+  #philips_m_00 #philips_m_01 .phi_col-xs-4,
+  #philips_m_00 #philips_m_01 .phi_col-xs-5,
+  #philips_m_00 #philips_m_01 .phi_col-xs-6,
+  #philips_m_00 #philips_m_01 .phi_col-xs-7,
+  #philips_m_00 #philips_m_01 .phi_col-xs-8,
+  #philips_m_00 #philips_m_01 .phi_col-xs-9,
+  #philips_m_00 #philips_m_01 .phi_col-xs-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; }
+  #philips_m_00 #philips_m_01 .phi_col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%; }
+  #philips_m_00 #philips_m_01 .phi_col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  #philips_m_00 #philips_m_01 .phi_col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%; }
+  #philips_m_00 #philips_m_01 .phi_col-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+  #philips_m_00 #philips_m_01 .phi_col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+  #philips_m_00 #philips_m_01 .phi_col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+  #philips_m_00 #philips_m_01 .phi_col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+  #philips_m_00 #philips_m_01 .phi_col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+  #philips_m_00 #philips_m_01 .phi_col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+  #philips_m_00 #philips_m_01 .phi_col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+  #philips_m_00 #philips_m_01 .phi_col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+  #philips_m_00 #philips_m_01 .phi_col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+  #philips_m_00 #philips_m_01 .phi_col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+  #philips_m_00 #philips_m_01 .phi_col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  #philips_m_00 #philips_m_01 .phi_order-first {
+    -ms-flex-order: -1;
+    order: -1; }
+  #philips_m_00 #philips_m_01 .phi_order-last {
+    -ms-flex-order: 13;
+    order: 13; }
+  #philips_m_00 #philips_m_01 .phi_order-0 {
+    -ms-flex-order: 0;
+    order: 0; }
+  #philips_m_00 #philips_m_01 .phi_order-1 {
+    -ms-flex-order: 1;
+    order: 1; }
+  #philips_m_00 #philips_m_01 .phi_order-2 {
+    -ms-flex-order: 2;
+    order: 2; }
+  #philips_m_00 #philips_m_01 .phi_order-3 {
+    -ms-flex-order: 3;
+    order: 3; }
+  #philips_m_00 #philips_m_01 .phi_order-4 {
+    -ms-flex-order: 4;
+    order: 4; }
+  #philips_m_00 #philips_m_01 .phi_order-5 {
+    -ms-flex-order: 5;
+    order: 5; }
+  #philips_m_00 #philips_m_01 .phi_order-6 {
+    -ms-flex-order: 6;
+    order: 6; }
+  #philips_m_00 #philips_m_01 .phi_order-7 {
+    -ms-flex-order: 7;
+    order: 7; }
+  #philips_m_00 #philips_m_01 .phi_order-8 {
+    -ms-flex-order: 8;
+    order: 8; }
+  #philips_m_00 #philips_m_01 .phi_order-9 {
+    -ms-flex-order: 9;
+    order: 9; }
+  #philips_m_00 #philips_m_01 .phi_order-10 {
+    -ms-flex-order: 10;
+    order: 10; }
+  #philips_m_00 #philips_m_01 .phi_order-11 {
+    -ms-flex-order: 11;
+    order: 11; }
+  #philips_m_00 #philips_m_01 .phi_order-12 {
+    -ms-flex-order: 12;
+    order: 12; }
+  #philips_m_00 #philips_m_01 .phi_offset-1 {
+    margin-left: 8.333333%; }
+  #philips_m_00 #philips_m_01 .phi_offset-2 {
+    margin-left: 16.666667%; }
+  #philips_m_00 #philips_m_01 .phi_offset-3 {
+    margin-left: 25%; }
+  #philips_m_00 #philips_m_01 .phi_offset-4 {
+    margin-left: 33.333333%; }
+  #philips_m_00 #philips_m_01 .phi_offset-5 {
+    margin-left: 41.666667%; }
+  #philips_m_00 #philips_m_01 .phi_offset-6 {
+    margin-left: 50%; }
+  #philips_m_00 #philips_m_01 .phi_offset-7 {
+    margin-left: 58.333333%; }
+  #philips_m_00 #philips_m_01 .phi_offset-8 {
+    margin-left: 66.666667%; }
+  #philips_m_00 #philips_m_01 .phi_offset-9 {
+    margin-left: 75%; }
+  #philips_m_00 #philips_m_01 .phi_offset-10 {
+    margin-left: 83.333333%; }
+  #philips_m_00 #philips_m_01 .phi_offset-11 {
+    margin-left: 91.666667%; }
+  @media (max-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_col-xs {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-xs-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #philips_m_00 #philips_m_01 .phi_order-xs-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-0 {
+      margin-left: 0; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-1 {
+      margin-left: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-2 {
+      margin-left: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-3 {
+      margin-left: 25%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-4 {
+      margin-left: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-5 {
+      margin-left: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-6 {
+      margin-left: 50%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-7 {
+      margin-left: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-8 {
+      margin-left: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-9 {
+      margin-left: 75%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-10 {
+      margin-left: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-xs-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_col-sm {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-sm-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #philips_m_00 #philips_m_01 .phi_order-sm-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-0 {
+      margin-left: 0; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-1 {
+      margin-left: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-2 {
+      margin-left: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-3 {
+      margin-left: 25%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-4 {
+      margin-left: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-5 {
+      margin-left: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-6 {
+      margin-left: 50%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-7 {
+      margin-left: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-8 {
+      margin-left: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-9 {
+      margin-left: 75%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-10 {
+      margin-left: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-sm-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_col-md {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-md-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_order-md-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #philips_m_00 #philips_m_01 .phi_order-md-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #philips_m_00 #philips_m_01 .phi_order-md-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #philips_m_00 #philips_m_01 .phi_order-md-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #philips_m_00 #philips_m_01 .phi_order-md-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #philips_m_00 #philips_m_01 .phi_order-md-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #philips_m_00 #philips_m_01 .phi_order-md-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #philips_m_00 #philips_m_01 .phi_order-md-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #philips_m_00 #philips_m_01 .phi_order-md-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #philips_m_00 #philips_m_01 .phi_order-md-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #philips_m_00 #philips_m_01 .phi_order-md-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #philips_m_00 #philips_m_01 .phi_order-md-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #philips_m_00 #philips_m_01 .phi_order-md-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #philips_m_00 #philips_m_01 .phi_order-md-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #philips_m_00 #philips_m_01 .phi_order-md-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-0 {
+      margin-left: 0; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-1 {
+      margin-left: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-2 {
+      margin-left: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-3 {
+      margin-left: 25%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-4 {
+      margin-left: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-5 {
+      margin-left: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-6 {
+      margin-left: 50%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-7 {
+      margin-left: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-8 {
+      margin-left: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-9 {
+      margin-left: 75%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-10 {
+      margin-left: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-md-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_col-lg {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #philips_m_00 #philips_m_01 .phi_col-lg-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #philips_m_00 #philips_m_01 .phi_order-lg-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-0 {
+      margin-left: 0; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-1 {
+      margin-left: 8.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-2 {
+      margin-left: 16.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-3 {
+      margin-left: 25%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-4 {
+      margin-left: 33.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-5 {
+      margin-left: 41.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-6 {
+      margin-left: 50%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-7 {
+      margin-left: 58.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-8 {
+      margin-left: 66.666667%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-9 {
+      margin-left: 75%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-10 {
+      margin-left: 83.333333%; }
+    #philips_m_00 #philips_m_01 .phi_offset-lg-11 {
+      margin-left: 91.666667%; } }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive::before {
+    display: block;
+    content: ""; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive .embed-responsive-item,
+  #philips_m_00 #philips_m_01 .phi_embed-responsive embed,
+  #philips_m_00 #philips_m_01 .phi_embed-responsive iframe,
+  #philips_m_00 #philips_m_01 .phi_embed-responsive object,
+  #philips_m_00 #philips_m_01 .phi_embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive-21by9::before {
+    padding-top: 42.857143%; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive-16by9::before {
+    padding-top: 56.25%; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive-3by4::before {
+    padding-top: 133.333333%; }
+  #philips_m_00 #philips_m_01 .phi_embed-responsive-1by1::before {
+    padding-top: 100%; }
+  #philips_m_00 #philips_m_01 .phi_flex-row {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-wrap {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-nowrap {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-fill {
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-grow-0 {
+    -ms-flex-positive: 0 !important;
+    flex-grow: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-grow-1 {
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-shrink-0 {
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_flex-shrink-1 {
+    -ms-flex-negative: 1 !important;
+    flex-shrink: 1 !important; }
+  #philips_m_00 #philips_m_01 .phi_justify-content-start {
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important; }
+  #philips_m_00 #philips_m_01 .phi_justify-content-end {
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important; }
+  #philips_m_00 #philips_m_01 .phi_justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+  #philips_m_00 #philips_m_01 .phi_justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important; }
+  #philips_m_00 #philips_m_01 .phi_justify-content-around {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important; }
+  #philips_m_00 #philips_m_01 .phi_align-items-start {
+    -ms-flex-align: start !important;
+    align-items: flex-start !important; }
+  #philips_m_00 #philips_m_01 .phi_align-items-end {
+    -ms-flex-align: end !important;
+    align-items: flex-end !important; }
+  #philips_m_00 #philips_m_01 .phi_align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important; }
+  #philips_m_00 #philips_m_01 .phi_align-items-baseline {
+    -ms-flex-align: baseline !important;
+    align-items: baseline !important; }
+  #philips_m_00 #philips_m_01 .phi_align-items-stretch {
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-start {
+    -ms-flex-line-pack: start !important;
+    align-content: flex-start !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-end {
+    -ms-flex-line-pack: end !important;
+    align-content: flex-end !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-between {
+    -ms-flex-line-pack: justify !important;
+    align-content: space-between !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-around {
+    -ms-flex-line-pack: distribute !important;
+    align-content: space-around !important; }
+  #philips_m_00 #philips_m_01 .phi_align-content-stretch {
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-auto {
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-start {
+    -ms-flex-item-align: start !important;
+    align-self: flex-start !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-end {
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-baseline {
+    -ms-flex-item-align: baseline !important;
+    align-self: baseline !important; }
+  #philips_m_00 #philips_m_01 .phi_align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important; }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_flex-sm-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-sm-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-sm-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-sm-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-sm-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-sm-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-sm-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-sm-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-sm-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-sm-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-sm-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-sm-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-sm-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-sm-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_flex-md-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-md-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-md-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-md-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-md-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-md-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-md-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-md-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-md-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-md-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-md-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-md-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-md-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-md-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_flex-lg-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_flex-lg-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-lg-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-lg-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-lg-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-lg-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_justify-content-lg-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-lg-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-lg-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-lg-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-lg-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-items-lg-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #philips_m_00 #philips_m_01 .phi_align-content-lg-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #philips_m_00 #philips_m_01 .phi_align-self-lg-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  #philips_m_00 #philips_m_01 .phi_float-left {
+    float: left !important; }
+  #philips_m_00 #philips_m_01 .phi_float-right {
+    float: right !important; }
+  #philips_m_00 #philips_m_01 .phi_float-none {
+    float: none !important; }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_float-sm-left {
+      float: left !important; }
+    #philips_m_00 #philips_m_01 .phi_float-sm-right {
+      float: right !important; }
+    #philips_m_00 #philips_m_01 .phi_float-sm-none {
+      float: none !important; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_float-md-left {
+      float: left !important; }
+    #philips_m_00 #philips_m_01 .phi_float-md-right {
+      float: right !important; }
+    #philips_m_00 #philips_m_01 .phi_float-md-none {
+      float: none !important; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_float-lg-left {
+      float: left !important; }
+    #philips_m_00 #philips_m_01 .phi_float-lg-right {
+      float: right !important; }
+    #philips_m_00 #philips_m_01 .phi_float-lg-none {
+      float: none !important; } }
+  #philips_m_00 #philips_m_01 .phi_overflow-auto {
+    overflow: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_overflow-hidden {
+    overflow: hidden !important; }
+  #philips_m_00 #philips_m_01 .phi_position-static {
+    position: static !important; }
+  #philips_m_00 #philips_m_01 .phi_position-relative {
+    position: relative !important; }
+  #philips_m_00 #philips_m_01 .phi_position-absolute {
+    position: absolute !important; }
+  #philips_m_00 #philips_m_01 .phi_position-fixed {
+    position: fixed !important; }
+  #philips_m_00 #philips_m_01 .phi_position-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important; }
+  #philips_m_00 #philips_m_01 .phi_fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+  #philips_m_00 #philips_m_01 .phi_fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; }
+  @supports (position: -webkit-sticky) or (position: sticky) {
+    #philips_m_00 #philips_m_01 .phi_sticky-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1020; } }
+  #philips_m_00 #philips_m_01 .phi_sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0; }
+  #philips_m_00 #philips_m_01 .phi_sr-only-focusable:active,
+  #philips_m_00 #philips_m_01 .phi_sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal; }
+  #philips_m_00 #philips_m_01 .phi_w-25 {
+    width: 25% !important; }
+  #philips_m_00 #philips_m_01 .phi_w-50 {
+    width: 50% !important; }
+  #philips_m_00 #philips_m_01 .phi_w-75 {
+    width: 75% !important; }
+  #philips_m_00 #philips_m_01 .phi_w-100 {
+    width: 100% !important; }
+  #philips_m_00 #philips_m_01 .phi_w-auto {
+    width: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_h-25 {
+    height: 25% !important; }
+  #philips_m_00 #philips_m_01 .phi_h-50 {
+    height: 50% !important; }
+  #philips_m_00 #philips_m_01 .phi_h-75 {
+    height: 75% !important; }
+  #philips_m_00 #philips_m_01 .phi_h-100 {
+    height: 100% !important; }
+  #philips_m_00 #philips_m_01 .phi_h-auto {
+    height: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_mw-100 {
+    max-width: 100% !important; }
+  #philips_m_00 #philips_m_01 .phi_mh-100 {
+    max-height: 100% !important; }
+  #philips_m_00 #philips_m_01 .phi_min-vw-100 {
+    min-width: 100vw !important; }
+  #philips_m_00 #philips_m_01 .phi_min-vh-100 {
+    min-height: 100vh !important; }
+  #philips_m_00 #philips_m_01 .phi_vw-100 {
+    width: 100vw !important; }
+  #philips_m_00 #philips_m_01 .phi_vh-100 {
+    height: 100vh !important; }
+  #philips_m_00 #philips_m_01 .phi_m-0 {
+    margin: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-0,
+  #philips_m_00 #philips_m_01 .phi_my-0 {
+    margin-top: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-0,
+  #philips_m_00 #philips_m_01 .phi_mx-0 {
+    margin-right: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-0,
+  #philips_m_00 #philips_m_01 .phi_my-0 {
+    margin-bottom: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-0,
+  #philips_m_00 #philips_m_01 .phi_mx-0 {
+    margin-left: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_m-1 {
+    margin: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-1,
+  #philips_m_00 #philips_m_01 .phi_my-1 {
+    margin-top: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-1,
+  #philips_m_00 #philips_m_01 .phi_mx-1 {
+    margin-right: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-1,
+  #philips_m_00 #philips_m_01 .phi_my-1 {
+    margin-bottom: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-1,
+  #philips_m_00 #philips_m_01 .phi_mx-1 {
+    margin-left: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-2 {
+    margin: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-2,
+  #philips_m_00 #philips_m_01 .phi_my-2 {
+    margin-top: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-2,
+  #philips_m_00 #philips_m_01 .phi_mx-2 {
+    margin-right: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-2,
+  #philips_m_00 #philips_m_01 .phi_my-2 {
+    margin-bottom: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-2,
+  #philips_m_00 #philips_m_01 .phi_mx-2 {
+    margin-left: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-3 {
+    margin: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-3,
+  #philips_m_00 #philips_m_01 .phi_my-3 {
+    margin-top: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-3,
+  #philips_m_00 #philips_m_01 .phi_mx-3 {
+    margin-right: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-3,
+  #philips_m_00 #philips_m_01 .phi_my-3 {
+    margin-bottom: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-3,
+  #philips_m_00 #philips_m_01 .phi_mx-3 {
+    margin-left: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-4 {
+    margin: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-4,
+  #philips_m_00 #philips_m_01 .phi_my-4 {
+    margin-top: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-4,
+  #philips_m_00 #philips_m_01 .phi_mx-4 {
+    margin-right: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-4,
+  #philips_m_00 #philips_m_01 .phi_my-4 {
+    margin-bottom: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-4,
+  #philips_m_00 #philips_m_01 .phi_mx-4 {
+    margin-left: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-5 {
+    margin: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-5,
+  #philips_m_00 #philips_m_01 .phi_my-5 {
+    margin-top: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-5,
+  #philips_m_00 #philips_m_01 .phi_mx-5 {
+    margin-right: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-5,
+  #philips_m_00 #philips_m_01 .phi_my-5 {
+    margin-bottom: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-5,
+  #philips_m_00 #philips_m_01 .phi_mx-5 {
+    margin-left: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_p-0 {
+    padding: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-0,
+  #philips_m_00 #philips_m_01 .phi_py-0 {
+    padding-top: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-0,
+  #philips_m_00 #philips_m_01 .phi_px-0 {
+    padding-right: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-0,
+  #philips_m_00 #philips_m_01 .phi_py-0 {
+    padding-bottom: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-0,
+  #philips_m_00 #philips_m_01 .phi_px-0 {
+    padding-left: 0 !important; }
+  #philips_m_00 #philips_m_01 .phi_p-1 {
+    padding: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-1,
+  #philips_m_00 #philips_m_01 .phi_py-1 {
+    padding-top: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-1,
+  #philips_m_00 #philips_m_01 .phi_px-1 {
+    padding-right: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-1,
+  #philips_m_00 #philips_m_01 .phi_py-1 {
+    padding-bottom: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-1,
+  #philips_m_00 #philips_m_01 .phi_px-1 {
+    padding-left: .25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_p-2 {
+    padding: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-2,
+  #philips_m_00 #philips_m_01 .phi_py-2 {
+    padding-top: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-2,
+  #philips_m_00 #philips_m_01 .phi_px-2 {
+    padding-right: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-2,
+  #philips_m_00 #philips_m_01 .phi_py-2 {
+    padding-bottom: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-2,
+  #philips_m_00 #philips_m_01 .phi_px-2 {
+    padding-left: .5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_p-3 {
+    padding: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-3,
+  #philips_m_00 #philips_m_01 .phi_py-3 {
+    padding-top: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-3,
+  #philips_m_00 #philips_m_01 .phi_px-3 {
+    padding-right: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-3,
+  #philips_m_00 #philips_m_01 .phi_py-3 {
+    padding-bottom: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-3,
+  #philips_m_00 #philips_m_01 .phi_px-3 {
+    padding-left: 1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_p-4 {
+    padding: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-4,
+  #philips_m_00 #philips_m_01 .phi_py-4 {
+    padding-top: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-4,
+  #philips_m_00 #philips_m_01 .phi_px-4 {
+    padding-right: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-4,
+  #philips_m_00 #philips_m_01 .phi_py-4 {
+    padding-bottom: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-4,
+  #philips_m_00 #philips_m_01 .phi_px-4 {
+    padding-left: 1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_p-5 {
+    padding: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pt-5,
+  #philips_m_00 #philips_m_01 .phi_py-5 {
+    padding-top: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pr-5,
+  #philips_m_00 #philips_m_01 .phi_px-5 {
+    padding-right: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pb-5,
+  #philips_m_00 #philips_m_01 .phi_py-5 {
+    padding-bottom: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_pl-5,
+  #philips_m_00 #philips_m_01 .phi_px-5 {
+    padding-left: 3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-n1 {
+    margin: -.25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-n1,
+  #philips_m_00 #philips_m_01 .phi_my-n1 {
+    margin-top: -.25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-n1,
+  #philips_m_00 #philips_m_01 .phi_mx-n1 {
+    margin-right: -.25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-n1,
+  #philips_m_00 #philips_m_01 .phi_my-n1 {
+    margin-bottom: -.25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-n1,
+  #philips_m_00 #philips_m_01 .phi_mx-n1 {
+    margin-left: -.25rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-n2 {
+    margin: -.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-n2,
+  #philips_m_00 #philips_m_01 .phi_my-n2 {
+    margin-top: -.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-n2,
+  #philips_m_00 #philips_m_01 .phi_mx-n2 {
+    margin-right: -.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-n2,
+  #philips_m_00 #philips_m_01 .phi_my-n2 {
+    margin-bottom: -.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-n2,
+  #philips_m_00 #philips_m_01 .phi_mx-n2 {
+    margin-left: -.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-n3 {
+    margin: -1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-n3,
+  #philips_m_00 #philips_m_01 .phi_my-n3 {
+    margin-top: -1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-n3,
+  #philips_m_00 #philips_m_01 .phi_mx-n3 {
+    margin-right: -1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-n3,
+  #philips_m_00 #philips_m_01 .phi_my-n3 {
+    margin-bottom: -1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-n3,
+  #philips_m_00 #philips_m_01 .phi_mx-n3 {
+    margin-left: -1rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-n4 {
+    margin: -1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-n4,
+  #philips_m_00 #philips_m_01 .phi_my-n4 {
+    margin-top: -1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-n4,
+  #philips_m_00 #philips_m_01 .phi_mx-n4 {
+    margin-right: -1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-n4,
+  #philips_m_00 #philips_m_01 .phi_my-n4 {
+    margin-bottom: -1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-n4,
+  #philips_m_00 #philips_m_01 .phi_mx-n4 {
+    margin-left: -1.5rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-n5 {
+    margin: -3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-n5,
+  #philips_m_00 #philips_m_01 .phi_my-n5 {
+    margin-top: -3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-n5,
+  #philips_m_00 #philips_m_01 .phi_mx-n5 {
+    margin-right: -3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-n5,
+  #philips_m_00 #philips_m_01 .phi_my-n5 {
+    margin-bottom: -3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-n5,
+  #philips_m_00 #philips_m_01 .phi_mx-n5 {
+    margin-left: -3rem !important; }
+  #philips_m_00 #philips_m_01 .phi_m-auto {
+    margin: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_mt-auto,
+  #philips_m_00 #philips_m_01 .phi_my-auto {
+    margin-top: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_mr-auto,
+  #philips_m_00 #philips_m_01 .phi_mx-auto {
+    margin-right: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_mb-auto,
+  #philips_m_00 #philips_m_01 .phi_my-auto {
+    margin-bottom: auto !important; }
+  #philips_m_00 #philips_m_01 .phi_ml-auto,
+  #philips_m_00 #philips_m_01 .phi_mx-auto {
+    margin-left: auto !important; }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_m-sm-0 {
+      margin: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-0,
+    #philips_m_00 #philips_m_01 .phi_my-sm-0 {
+      margin-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-0,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-0 {
+      margin-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-0,
+    #philips_m_00 #philips_m_01 .phi_my-sm-0 {
+      margin-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-0,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-0 {
+      margin-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-1 {
+      margin: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-1,
+    #philips_m_00 #philips_m_01 .phi_my-sm-1 {
+      margin-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-1,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-1 {
+      margin-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-1,
+    #philips_m_00 #philips_m_01 .phi_my-sm-1 {
+      margin-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-1,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-1 {
+      margin-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-2 {
+      margin: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-2,
+    #philips_m_00 #philips_m_01 .phi_my-sm-2 {
+      margin-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-2,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-2 {
+      margin-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-2,
+    #philips_m_00 #philips_m_01 .phi_my-sm-2 {
+      margin-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-2,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-2 {
+      margin-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-3 {
+      margin: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-3,
+    #philips_m_00 #philips_m_01 .phi_my-sm-3 {
+      margin-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-3,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-3 {
+      margin-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-3,
+    #philips_m_00 #philips_m_01 .phi_my-sm-3 {
+      margin-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-3,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-3 {
+      margin-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-4 {
+      margin: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-4,
+    #philips_m_00 #philips_m_01 .phi_my-sm-4 {
+      margin-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-4,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-4 {
+      margin-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-4,
+    #philips_m_00 #philips_m_01 .phi_my-sm-4 {
+      margin-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-4,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-4 {
+      margin-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-5 {
+      margin: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-5,
+    #philips_m_00 #philips_m_01 .phi_my-sm-5 {
+      margin-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-5,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-5 {
+      margin-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-5,
+    #philips_m_00 #philips_m_01 .phi_my-sm-5 {
+      margin-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-5,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-5 {
+      margin-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-0 {
+      padding: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-0,
+    #philips_m_00 #philips_m_01 .phi_py-sm-0 {
+      padding-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-0,
+    #philips_m_00 #philips_m_01 .phi_px-sm-0 {
+      padding-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-0,
+    #philips_m_00 #philips_m_01 .phi_py-sm-0 {
+      padding-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-0,
+    #philips_m_00 #philips_m_01 .phi_px-sm-0 {
+      padding-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-1 {
+      padding: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-1,
+    #philips_m_00 #philips_m_01 .phi_py-sm-1 {
+      padding-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-1,
+    #philips_m_00 #philips_m_01 .phi_px-sm-1 {
+      padding-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-1,
+    #philips_m_00 #philips_m_01 .phi_py-sm-1 {
+      padding-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-1,
+    #philips_m_00 #philips_m_01 .phi_px-sm-1 {
+      padding-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-2 {
+      padding: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-2,
+    #philips_m_00 #philips_m_01 .phi_py-sm-2 {
+      padding-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-2,
+    #philips_m_00 #philips_m_01 .phi_px-sm-2 {
+      padding-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-2,
+    #philips_m_00 #philips_m_01 .phi_py-sm-2 {
+      padding-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-2,
+    #philips_m_00 #philips_m_01 .phi_px-sm-2 {
+      padding-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-3 {
+      padding: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-3,
+    #philips_m_00 #philips_m_01 .phi_py-sm-3 {
+      padding-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-3,
+    #philips_m_00 #philips_m_01 .phi_px-sm-3 {
+      padding-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-3,
+    #philips_m_00 #philips_m_01 .phi_py-sm-3 {
+      padding-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-3,
+    #philips_m_00 #philips_m_01 .phi_px-sm-3 {
+      padding-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-4 {
+      padding: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-4,
+    #philips_m_00 #philips_m_01 .phi_py-sm-4 {
+      padding-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-4,
+    #philips_m_00 #philips_m_01 .phi_px-sm-4 {
+      padding-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-4,
+    #philips_m_00 #philips_m_01 .phi_py-sm-4 {
+      padding-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-4,
+    #philips_m_00 #philips_m_01 .phi_px-sm-4 {
+      padding-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-sm-5 {
+      padding: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-sm-5,
+    #philips_m_00 #philips_m_01 .phi_py-sm-5 {
+      padding-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-sm-5,
+    #philips_m_00 #philips_m_01 .phi_px-sm-5 {
+      padding-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-sm-5,
+    #philips_m_00 #philips_m_01 .phi_py-sm-5 {
+      padding-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-sm-5,
+    #philips_m_00 #philips_m_01 .phi_px-sm-5 {
+      padding-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-n1 {
+      margin: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-n1,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n1 {
+      margin-top: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n1 {
+      margin-right: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-n1,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n1 {
+      margin-bottom: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n1 {
+      margin-left: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-n2 {
+      margin: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-n2,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n2 {
+      margin-top: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n2 {
+      margin-right: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-n2,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n2 {
+      margin-bottom: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n2 {
+      margin-left: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-n3 {
+      margin: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-n3,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n3 {
+      margin-top: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n3 {
+      margin-right: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-n3,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n3 {
+      margin-bottom: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n3 {
+      margin-left: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-n4 {
+      margin: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-n4,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n4 {
+      margin-top: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n4 {
+      margin-right: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-n4,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n4 {
+      margin-bottom: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n4 {
+      margin-left: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-n5 {
+      margin: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-n5,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n5 {
+      margin-top: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n5 {
+      margin-right: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-n5,
+    #philips_m_00 #philips_m_01 .phi_my-sm-n5 {
+      margin-bottom: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-n5 {
+      margin-left: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-sm-auto {
+      margin: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-sm-auto,
+    #philips_m_00 #philips_m_01 .phi_my-sm-auto {
+      margin-top: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-sm-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-auto {
+      margin-right: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-sm-auto,
+    #philips_m_00 #philips_m_01 .phi_my-sm-auto {
+      margin-bottom: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-sm-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-sm-auto {
+      margin-left: auto !important; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_m-md-0 {
+      margin: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-0,
+    #philips_m_00 #philips_m_01 .phi_my-md-0 {
+      margin-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-0,
+    #philips_m_00 #philips_m_01 .phi_mx-md-0 {
+      margin-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-0,
+    #philips_m_00 #philips_m_01 .phi_my-md-0 {
+      margin-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-0,
+    #philips_m_00 #philips_m_01 .phi_mx-md-0 {
+      margin-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-1 {
+      margin: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-1,
+    #philips_m_00 #philips_m_01 .phi_my-md-1 {
+      margin-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-1,
+    #philips_m_00 #philips_m_01 .phi_mx-md-1 {
+      margin-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-1,
+    #philips_m_00 #philips_m_01 .phi_my-md-1 {
+      margin-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-1,
+    #philips_m_00 #philips_m_01 .phi_mx-md-1 {
+      margin-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-2 {
+      margin: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-2,
+    #philips_m_00 #philips_m_01 .phi_my-md-2 {
+      margin-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-2,
+    #philips_m_00 #philips_m_01 .phi_mx-md-2 {
+      margin-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-2,
+    #philips_m_00 #philips_m_01 .phi_my-md-2 {
+      margin-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-2,
+    #philips_m_00 #philips_m_01 .phi_mx-md-2 {
+      margin-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-3 {
+      margin: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-3,
+    #philips_m_00 #philips_m_01 .phi_my-md-3 {
+      margin-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-3,
+    #philips_m_00 #philips_m_01 .phi_mx-md-3 {
+      margin-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-3,
+    #philips_m_00 #philips_m_01 .phi_my-md-3 {
+      margin-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-3,
+    #philips_m_00 #philips_m_01 .phi_mx-md-3 {
+      margin-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-4 {
+      margin: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-4,
+    #philips_m_00 #philips_m_01 .phi_my-md-4 {
+      margin-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-4,
+    #philips_m_00 #philips_m_01 .phi_mx-md-4 {
+      margin-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-4,
+    #philips_m_00 #philips_m_01 .phi_my-md-4 {
+      margin-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-4,
+    #philips_m_00 #philips_m_01 .phi_mx-md-4 {
+      margin-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-5 {
+      margin: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-5,
+    #philips_m_00 #philips_m_01 .phi_my-md-5 {
+      margin-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-5,
+    #philips_m_00 #philips_m_01 .phi_mx-md-5 {
+      margin-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-5,
+    #philips_m_00 #philips_m_01 .phi_my-md-5 {
+      margin-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-5,
+    #philips_m_00 #philips_m_01 .phi_mx-md-5 {
+      margin-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-0 {
+      padding: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-0,
+    #philips_m_00 #philips_m_01 .phi_py-md-0 {
+      padding-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-0,
+    #philips_m_00 #philips_m_01 .phi_px-md-0 {
+      padding-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-0,
+    #philips_m_00 #philips_m_01 .phi_py-md-0 {
+      padding-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-0,
+    #philips_m_00 #philips_m_01 .phi_px-md-0 {
+      padding-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-1 {
+      padding: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-1,
+    #philips_m_00 #philips_m_01 .phi_py-md-1 {
+      padding-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-1,
+    #philips_m_00 #philips_m_01 .phi_px-md-1 {
+      padding-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-1,
+    #philips_m_00 #philips_m_01 .phi_py-md-1 {
+      padding-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-1,
+    #philips_m_00 #philips_m_01 .phi_px-md-1 {
+      padding-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-2 {
+      padding: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-2,
+    #philips_m_00 #philips_m_01 .phi_py-md-2 {
+      padding-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-2,
+    #philips_m_00 #philips_m_01 .phi_px-md-2 {
+      padding-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-2,
+    #philips_m_00 #philips_m_01 .phi_py-md-2 {
+      padding-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-2,
+    #philips_m_00 #philips_m_01 .phi_px-md-2 {
+      padding-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-3 {
+      padding: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-3,
+    #philips_m_00 #philips_m_01 .phi_py-md-3 {
+      padding-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-3,
+    #philips_m_00 #philips_m_01 .phi_px-md-3 {
+      padding-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-3,
+    #philips_m_00 #philips_m_01 .phi_py-md-3 {
+      padding-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-3,
+    #philips_m_00 #philips_m_01 .phi_px-md-3 {
+      padding-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-4 {
+      padding: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-4,
+    #philips_m_00 #philips_m_01 .phi_py-md-4 {
+      padding-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-4,
+    #philips_m_00 #philips_m_01 .phi_px-md-4 {
+      padding-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-4,
+    #philips_m_00 #philips_m_01 .phi_py-md-4 {
+      padding-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-4,
+    #philips_m_00 #philips_m_01 .phi_px-md-4 {
+      padding-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-md-5 {
+      padding: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-md-5,
+    #philips_m_00 #philips_m_01 .phi_py-md-5 {
+      padding-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-md-5,
+    #philips_m_00 #philips_m_01 .phi_px-md-5 {
+      padding-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-md-5,
+    #philips_m_00 #philips_m_01 .phi_py-md-5 {
+      padding-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-md-5,
+    #philips_m_00 #philips_m_01 .phi_px-md-5 {
+      padding-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-n1 {
+      margin: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-n1,
+    #philips_m_00 #philips_m_01 .phi_my-md-n1 {
+      margin-top: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n1 {
+      margin-right: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-n1,
+    #philips_m_00 #philips_m_01 .phi_my-md-n1 {
+      margin-bottom: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n1 {
+      margin-left: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-n2 {
+      margin: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-n2,
+    #philips_m_00 #philips_m_01 .phi_my-md-n2 {
+      margin-top: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n2 {
+      margin-right: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-n2,
+    #philips_m_00 #philips_m_01 .phi_my-md-n2 {
+      margin-bottom: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n2 {
+      margin-left: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-n3 {
+      margin: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-n3,
+    #philips_m_00 #philips_m_01 .phi_my-md-n3 {
+      margin-top: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n3 {
+      margin-right: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-n3,
+    #philips_m_00 #philips_m_01 .phi_my-md-n3 {
+      margin-bottom: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n3 {
+      margin-left: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-n4 {
+      margin: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-n4,
+    #philips_m_00 #philips_m_01 .phi_my-md-n4 {
+      margin-top: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n4 {
+      margin-right: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-n4,
+    #philips_m_00 #philips_m_01 .phi_my-md-n4 {
+      margin-bottom: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n4 {
+      margin-left: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-n5 {
+      margin: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-n5,
+    #philips_m_00 #philips_m_01 .phi_my-md-n5 {
+      margin-top: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n5 {
+      margin-right: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-n5,
+    #philips_m_00 #philips_m_01 .phi_my-md-n5 {
+      margin-bottom: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-md-n5 {
+      margin-left: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-md-auto {
+      margin: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-md-auto,
+    #philips_m_00 #philips_m_01 .phi_my-md-auto {
+      margin-top: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-md-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-md-auto {
+      margin-right: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-md-auto,
+    #philips_m_00 #philips_m_01 .phi_my-md-auto {
+      margin-bottom: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-md-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-md-auto {
+      margin-left: auto !important; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_m-lg-0 {
+      margin: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-0,
+    #philips_m_00 #philips_m_01 .phi_my-lg-0 {
+      margin-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-0,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-0 {
+      margin-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-0,
+    #philips_m_00 #philips_m_01 .phi_my-lg-0 {
+      margin-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-0,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-0 {
+      margin-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-1 {
+      margin: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-1,
+    #philips_m_00 #philips_m_01 .phi_my-lg-1 {
+      margin-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-1,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-1 {
+      margin-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-1,
+    #philips_m_00 #philips_m_01 .phi_my-lg-1 {
+      margin-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-1,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-1 {
+      margin-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-2 {
+      margin: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-2,
+    #philips_m_00 #philips_m_01 .phi_my-lg-2 {
+      margin-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-2,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-2 {
+      margin-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-2,
+    #philips_m_00 #philips_m_01 .phi_my-lg-2 {
+      margin-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-2,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-2 {
+      margin-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-3 {
+      margin: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-3,
+    #philips_m_00 #philips_m_01 .phi_my-lg-3 {
+      margin-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-3,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-3 {
+      margin-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-3,
+    #philips_m_00 #philips_m_01 .phi_my-lg-3 {
+      margin-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-3,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-3 {
+      margin-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-4 {
+      margin: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-4,
+    #philips_m_00 #philips_m_01 .phi_my-lg-4 {
+      margin-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-4,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-4 {
+      margin-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-4,
+    #philips_m_00 #philips_m_01 .phi_my-lg-4 {
+      margin-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-4,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-4 {
+      margin-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-5 {
+      margin: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-5,
+    #philips_m_00 #philips_m_01 .phi_my-lg-5 {
+      margin-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-5,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-5 {
+      margin-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-5,
+    #philips_m_00 #philips_m_01 .phi_my-lg-5 {
+      margin-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-5,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-5 {
+      margin-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-0 {
+      padding: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-0,
+    #philips_m_00 #philips_m_01 .phi_py-lg-0 {
+      padding-top: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-0,
+    #philips_m_00 #philips_m_01 .phi_px-lg-0 {
+      padding-right: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-0,
+    #philips_m_00 #philips_m_01 .phi_py-lg-0 {
+      padding-bottom: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-0,
+    #philips_m_00 #philips_m_01 .phi_px-lg-0 {
+      padding-left: 0 !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-1 {
+      padding: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-1,
+    #philips_m_00 #philips_m_01 .phi_py-lg-1 {
+      padding-top: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-1,
+    #philips_m_00 #philips_m_01 .phi_px-lg-1 {
+      padding-right: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-1,
+    #philips_m_00 #philips_m_01 .phi_py-lg-1 {
+      padding-bottom: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-1,
+    #philips_m_00 #philips_m_01 .phi_px-lg-1 {
+      padding-left: .25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-2 {
+      padding: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-2,
+    #philips_m_00 #philips_m_01 .phi_py-lg-2 {
+      padding-top: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-2,
+    #philips_m_00 #philips_m_01 .phi_px-lg-2 {
+      padding-right: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-2,
+    #philips_m_00 #philips_m_01 .phi_py-lg-2 {
+      padding-bottom: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-2,
+    #philips_m_00 #philips_m_01 .phi_px-lg-2 {
+      padding-left: .5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-3 {
+      padding: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-3,
+    #philips_m_00 #philips_m_01 .phi_py-lg-3 {
+      padding-top: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-3,
+    #philips_m_00 #philips_m_01 .phi_px-lg-3 {
+      padding-right: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-3,
+    #philips_m_00 #philips_m_01 .phi_py-lg-3 {
+      padding-bottom: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-3,
+    #philips_m_00 #philips_m_01 .phi_px-lg-3 {
+      padding-left: 1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-4 {
+      padding: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-4,
+    #philips_m_00 #philips_m_01 .phi_py-lg-4 {
+      padding-top: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-4,
+    #philips_m_00 #philips_m_01 .phi_px-lg-4 {
+      padding-right: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-4,
+    #philips_m_00 #philips_m_01 .phi_py-lg-4 {
+      padding-bottom: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-4,
+    #philips_m_00 #philips_m_01 .phi_px-lg-4 {
+      padding-left: 1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_p-lg-5 {
+      padding: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pt-lg-5,
+    #philips_m_00 #philips_m_01 .phi_py-lg-5 {
+      padding-top: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pr-lg-5,
+    #philips_m_00 #philips_m_01 .phi_px-lg-5 {
+      padding-right: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pb-lg-5,
+    #philips_m_00 #philips_m_01 .phi_py-lg-5 {
+      padding-bottom: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_pl-lg-5,
+    #philips_m_00 #philips_m_01 .phi_px-lg-5 {
+      padding-left: 3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-n1 {
+      margin: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-n1,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n1 {
+      margin-top: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n1 {
+      margin-right: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-n1,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n1 {
+      margin-bottom: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-n1,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n1 {
+      margin-left: -.25rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-n2 {
+      margin: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-n2,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n2 {
+      margin-top: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n2 {
+      margin-right: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-n2,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n2 {
+      margin-bottom: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-n2,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n2 {
+      margin-left: -.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-n3 {
+      margin: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-n3,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n3 {
+      margin-top: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n3 {
+      margin-right: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-n3,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n3 {
+      margin-bottom: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-n3,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n3 {
+      margin-left: -1rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-n4 {
+      margin: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-n4,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n4 {
+      margin-top: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n4 {
+      margin-right: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-n4,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n4 {
+      margin-bottom: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-n4,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n4 {
+      margin-left: -1.5rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-n5 {
+      margin: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-n5,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n5 {
+      margin-top: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n5 {
+      margin-right: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-n5,
+    #philips_m_00 #philips_m_01 .phi_my-lg-n5 {
+      margin-bottom: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-n5,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-n5 {
+      margin-left: -3rem !important; }
+    #philips_m_00 #philips_m_01 .phi_m-lg-auto {
+      margin: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mt-lg-auto,
+    #philips_m_00 #philips_m_01 .phi_my-lg-auto {
+      margin-top: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mr-lg-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-auto {
+      margin-right: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_mb-lg-auto,
+    #philips_m_00 #philips_m_01 .phi_my-lg-auto {
+      margin-bottom: auto !important; }
+    #philips_m_00 #philips_m_01 .phi_ml-lg-auto,
+    #philips_m_00 #philips_m_01 .phi_mx-lg-auto {
+      margin-left: auto !important; } }
+  #philips_m_00 #philips_m_01 .phi_text-justify {
+    text-align: justify !important; }
+  #philips_m_00 #philips_m_01 .phi_text-wrap {
+    white-space: normal !important; }
+  #philips_m_00 #philips_m_01 .phi_text-nowrap {
+    white-space: nowrap !important; }
+  #philips_m_00 #philips_m_01 .phi_text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  #philips_m_00 #philips_m_01 .phi_text-left {
+    text-align: left !important; }
+  #philips_m_00 #philips_m_01 .phi_text-right {
+    text-align: right !important; }
+  #philips_m_00 #philips_m_01 .phi_text-center {
+    text-align: center !important; }
+  @media (min-width: 480px) {
+    #philips_m_00 #philips_m_01 .phi_text-sm-left {
+      text-align: left !important; }
+    #philips_m_00 #philips_m_01 .phi_text-sm-right {
+      text-align: right !important; }
+    #philips_m_00 #philips_m_01 .phi_text-sm-center {
+      text-align: center !important; } }
+  @media (min-width: 800px) {
+    #philips_m_00 #philips_m_01 .phi_text-md-left {
+      text-align: left !important; }
+    #philips_m_00 #philips_m_01 .phi_text-md-right {
+      text-align: right !important; }
+    #philips_m_00 #philips_m_01 .phi_text-md-center {
+      text-align: center !important; } }
+  @media (min-width: 992px) {
+    #philips_m_00 #philips_m_01 .phi_text-lg-left {
+      text-align: left !important; }
+    #philips_m_00 #philips_m_01 .phi_text-lg-right {
+      text-align: right !important; }
+    #philips_m_00 #philips_m_01 .phi_text-lg-center {
+      text-align: center !important; } }
+  @media (min-width: 960px) {
+    #philips_m_00 #philips_m_01 .phi_text-lg-left {
+      text-align: left !important; }
+    #philips_m_00 #philips_m_01 .phi_text-lg-right {
+      text-align: right !important; }
+    #philips_m_00 #philips_m_01 .phi_text-lg-center {
+      text-align: center !important; } }
+  #philips_m_00 #philips_m_01 .phi_text-lowercase {
+    text-transform: lowercase !important; }
+  #philips_m_00 #philips_m_01 .phi_text-uppercase {
+    text-transform: uppercase !important; }
+  #philips_m_00 #philips_m_01 .phi_text-capitalize {
+    text-transform: capitalize !important; }
+  #philips_m_00 #philips_m_01 .phi_font-weight-light {
+    font-weight: 300 !important; }
+  #philips_m_00 #philips_m_01 .phi_font-weight-lighter {
+    font-weight: lighter !important; }
+  #philips_m_00 #philips_m_01 .phi_font-weight-normal {
+    font-weight: 400 !important; }
+  #philips_m_00 #philips_m_01 .phi_font-weight-bold {
+    font-weight: 700 !important; }
+  #philips_m_00 #philips_m_01 .phi_font-weight-bolder {
+    font-weight: bolder !important; }
+  #philips_m_00 #philips_m_01 .phi_font-italic {
+    font-style: italic !important; }
+  #philips_m_00 #philips_m_01 .phi_text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0; }
+  #philips_m_00 #philips_m_01 .phi_text-decoration-none {
+    text-decoration: none !important; }
+  #philips_m_00 #philips_m_01 .phi_text-reset {
+    color: inherit !important; }
+  #philips_m_00 #philips_m_01 .phi_visible {
+    visibility: visible !important; }
+  #philips_m_00 #philips_m_01 .phi_invisible {
+    visibility: hidden !important; }
+  #philips_m_00 #philips_m_01 .phi_text-center {
+    text-align: center; }
+  #philips_m_00 #philips_m_01 .phi_text-right {
+    text-align: right; }
+  #philips_m_00 #philips_m_01 .phi_seperator-20 {
+    height: 20px;
+    clear: both; }
+  #philips_m_00 #philips_m_01 .phi_seperator-30 {
+    height: 30px;
+    clear: both; }
+  #philips_m_00 #philips_m_01 .phi_img-center {
+    margin: 0 auto;
+    display: block; }
+  #philips_m_00 #philips_m_01 .phi_relative {
+    position: relative; }
+  #philips_m_00 #philips_m_01 .phi_display-inline-block {
+    display: inline-block; }
+  #philips_m_00 #philips_m_01 .phi_vertical-center,
+  #philips_m_00 #philips_m_01 .phi_center-vertical {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-align-items: center; }
+  #philips_m_00 #philips_m_01 .phi_flex-wrapper {
+    display: flex; }
+  #philips_m_00 #philips_m_01 .phi_flex-end {
+    align-self: flex-end; }
+  #philips_m_00 #philips_m_01 .phi_row.phi_is-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap; }
+  #philips_m_00 #philips_m_01 .phi_row.phi_is-flex > [class*="phi_col-"] {
+    display: flex;
+    flex-direction: column; }
+  #philips_m_00 #philips_m_01 .phi_row.phi_is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  #philips_m_00 #philips_m_01 .phi_row.phi_is-flex > [class*="phi_col-"] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  @media (max-width: 799px) {
+    #philips_m_00 #philips_m_01 .phi_text-center-md {
+      text-align: center; }
+    #philips_m_00 #philips_m_01 .phi_center-block-md {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #philips_m_00 #philips_m_01 .phi_img-responsive-md {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 479px) {
+    #philips_m_00 #philips_m_01 .phi_text-center-sm {
+      text-align: center; }
+    #philips_m_00 #philips_m_01 .phi_center-block-sm {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #philips_m_00 #philips_m_01 .phi_img-responsive-sm {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 479px) {
+    #philips_m_00 #philips_m_01 .phi_text-center-xs {
+      text-align: center; }
+    #philips_m_00 #philips_m_01 .phi_center-block-xs {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #philips_m_00 #philips_m_01 .phi_img-responsive-xs {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  #philips_m_00 #philips_m_01 img {
+    max-width: 100%; }
+  #philips_m_00 #philips_m_01 .phi_container {
+    max-width: 1920px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0; }
+  #philips_m_00 #philips_m_01 .phi_wrapper {
+    max-width: 965px;
+    width: auto;
+    margin: 0 auto; }
+  #philips_m_00 #philips_m_01 .phi_btn {
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    padding: 15px 0;
+    font-family: "CentraleSansBook";
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    text-align: center;
+    background: #e26d00;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #philips_m_00 #philips_m_01 .phi_btn:hover {
+      text-decoration: none;
+      background: #b45700; }
+  #philips_m_00 #philips_m_01 .phi_heading {
+    font-size: 38px;
+    font-family: "CentraleSansLight";
+    color: #00427c; }
+    #philips_m_00 #philips_m_01 .phi_heading strong {
+      font-family: "CentraleSansBold"; }
+    @media (max-width: 1199px) {
+      #philips_m_00 #philips_m_01 .phi_heading {
+        font-size: 36px; } }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_heading {
+        font-size: 32px;
+        padding: 0 20px; } }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_heading {
+        font-size: 28px; } }
+  #philips_m_00 #philips_m_01 .phi_subheading {
+    font-family: "CentraleSansBold";
+    color: #00427c;
+    font-size: 28px; }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_subheading {
+        font-size: 24px; } }
+  #philips_m_00 #philips_m_01 .phi_text {
+    font-family: "CentraleSansBook";
+    font-size: 18px;
+    padding: 0 10px;
+    color: #00427c;
+    line-height: 1.4; }
+    #philips_m_00 #philips_m_01 .phi_text strong {
+      font-family: "CentraleSansBold"; }
+    #philips_m_00 #philips_m_01 .phi_text a {
+      color: inherit; }
+    @media (max-width: 959px) {
+      #philips_m_00 #philips_m_01 .phi_text {
+        font-size: 18px; } }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_text {
+        font-size: 16px; } }
+  #philips_m_00 #philips_m_01 .phi_disclaimer {
+    font-size: 14px;
+    padding: 0 10px;
+    font-family: "CentraleSansLight";
+    color: #00427c; }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_disclaimer {
+        font-size: 12px; } }
+  #philips_m_00 #philips_m_01 .phi_lg-desktop {
+    display: block; }
+    @media (max-width: 1199px) {
+      #philips_m_00 #philips_m_01 .phi_lg-desktop {
+        display: none; } }
+  #philips_m_00 #philips_m_01 .phi_desktop {
+    display: none; }
+    @media (max-width: 1199px) {
+      #philips_m_00 #philips_m_01 .phi_desktop {
+        display: block; } }
+  @media (max-width: 799px) {
+    #philips_m_00 #philips_m_01 .phi_order {
+      order: -1; } }
+  #philips_m_00 #philips_m_01 .phi_kv {
+    padding: 0 20px;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    background-color: #2193d8; }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_kv {
+        padding-bottom: 25px; } }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_kv {
+        padding: 0 10px 25px; } }
+    #philips_m_00 #philips_m_01 .phi_kv-video {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -300px;
+      border: 1px solid #2193d8; }
+      @media (max-width: 1499px) {
+        #philips_m_00 #philips_m_01 .phi_kv-video {
+          right: -280px; } }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_kv-video {
+          right: -190px; } }
+      @media (max-width: 959px) {
+        #philips_m_00 #philips_m_01 .phi_kv-video {
+          position: static;
+          top: auto;
+          right: auto;
+          max-width: 100%;
+          transform: translateY(0); } }
+      #philips_m_00 #philips_m_01 .phi_kv-video img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%; }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_kv-video video {
+          max-width: 100%; } }
+    #philips_m_00 #philips_m_01 .phi_kv-wrapper {
+      position: relative; }
+    #philips_m_00 #philips_m_01 .phi_kv-logo {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_kv-logo {
+          width: 150px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_kv-logo {
+          width: 120px; } }
+    #philips_m_00 #philips_m_01 .phi_kv-box {
+      z-index: 1;
+      padding-top: 170px;
+      padding-bottom: 170px; }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_kv-box {
+          padding-right: 70px; } }
+      @media (max-width: 959px) {
+        #philips_m_00 #philips_m_01 .phi_kv-box {
+          text-align: center;
+          padding: 170px 50px 10px; } }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_kv-box {
+          padding: 135px 30px 10px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_kv-box {
+          padding: 100px 20px 10px; } }
+    #philips_m_00 #philips_m_01 .phi_kv-heading {
+      font-family: "CentraleSansBold";
+      font-size: 55px;
+      margin-bottom: 35px; }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_kv-heading {
+          font-size: 50px; } }
+      @media (max-width: 959px) {
+        #philips_m_00 #philips_m_01 .phi_kv-heading {
+          font-size: 46px; } }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_kv-heading {
+          font-size: 40px;
+          margin-bottom: 25px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_kv-heading {
+          font-size: 36px; } }
+    #philips_m_00 #philips_m_01 .phi_kv-text {
+      color: #fff;
+      padding-left: 0;
+      margin-bottom: 35px; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_kv-text {
+          margin-bottom: 25px;
+          font-size: 18px; } }
+    #philips_m_00 #philips_m_01 .phi_kv-btn {
+      width: 250px;
+      margin-left: 0; }
+      @media (max-width: 959px) {
+        #philips_m_00 #philips_m_01 .phi_kv-btn {
+          display: block;
+          width: 50%;
+          margin: 0 auto; } }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_kv-btn {
+          width: 60%; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_kv-btn {
+          width: 90%; } }
+  #philips_m_00 #philips_m_01 .phi_section1 {
+    padding: 60px 0; }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_section1 {
+        padding: 60px 0 10px; } }
+    #philips_m_00 #philips_m_01 .phi_section1-title {
+      color: #0079c1;
+      margin-top: 30px; }
+    #philips_m_00 #philips_m_01 .phi_section1-scale {
+      background-image: url(../img/phi_section1-scale.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 20px;
+      margin-top: 40px; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section1-scale {
+          background-position: 0 center;
+          margin: 20px 10px 50px; } }
+    #philips_m_00 #philips_m_01 .phi_section1-text {
+      margin-top: 30px; }
+    #philips_m_00 #philips_m_01 .phi_section1_box {
+      text-align: center;
+      padding: 0 5px;
+      flex: 0 0 10%;
+      position: relative; }
+      @media (max-width: 959px) {
+        #philips_m_00 #philips_m_01 .phi_section1_box {
+          margin-bottom: 30px; } }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section1_box {
+          flex: 0 0 33.333%;
+          margin-bottom: 30px; } }
+      #philips_m_00 #philips_m_01 .phi_section1_box-scale {
+        font-weight: bold;
+        font-size: 14px;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        padding: 0 5px; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_section1_box-scale {
+            top: -35px; } }
+        #philips_m_00 #philips_m_01 .phi_section1_box-scale::after {
+          content: "";
+          width: 5px;
+          height: 5px;
+          background: #000;
+          border-radius: 50%;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          position: absolute; }
+        #philips_m_00 #philips_m_01 .phi_section1_box-scale-first {
+          font-weight: bold;
+          font-size: 14px;
+          position: absolute;
+          left: 0;
+          top: -50px; }
+          @media (max-width: 959px) {
+            #philips_m_00 #philips_m_01 .phi_section1_box-scale-first {
+              max-width: 65px;
+              text-align: center; } }
+          @media (max-width: 799px) {
+            #philips_m_00 #philips_m_01 .phi_section1_box-scale-first {
+              display: none; } }
+      #philips_m_00 #philips_m_01 .phi_section1_box-name {
+        font-size: 14px;
+        font-family: "CentraleSansLight";
+        margin-top: 10px;
+        padding: 0 5px; }
+        @media (max-width: 959px) {
+          #philips_m_00 #philips_m_01 .phi_section1_box-name {
+            font-size: 12px; } }
+    #philips_m_00 #philips_m_01 .phi_section1_boxes {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      margin-top: 60px; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section1_boxes {
+          flex-wrap: wrap;
+          margin-top: 30px; } }
+      #philips_m_00 #philips_m_01 .phi_section1_boxes:nth-of-type(2) {
+        align-items: center; }
+      #philips_m_00 #philips_m_01 .phi_section1_boxes-info {
+        text-align: right;
+        margin-left: auto;
+        color: #0079c1; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_section1_boxes-info {
+            padding: 0 5px;
+            margin-left: 0;
+            text-align: center;
+            width: 100%; } }
+      #philips_m_00 #philips_m_01 .phi_section1_boxes-flex {
+        display: flex;
+        align-items: center;
+        flex: 0 0 20%; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_section1_boxes-flex {
+            flex: 0 0 33.33%;
+            display: block; } }
+  #philips_m_00 #philips_m_01 .phi_section2,
+  #philips_m_00 #philips_m_01 .phi_section3,
+  #philips_m_00 #philips_m_01 .phi_section4,
+  #philips_m_00 #philips_m_01 .phi_section5,
+  #philips_m_00 #philips_m_01 .phi_section6,
+  #philips_m_00 #philips_m_01 .phi_section7 {
+    padding: 50px 0; }
+    @media (max-width: 1199px) {
+      #philips_m_00 #philips_m_01 .phi_section2,
+      #philips_m_00 #philips_m_01 .phi_section3,
+      #philips_m_00 #philips_m_01 .phi_section4,
+      #philips_m_00 #philips_m_01 .phi_section5,
+      #philips_m_00 #philips_m_01 .phi_section6,
+      #philips_m_00 #philips_m_01 .phi_section7 {
+        padding: 50px 10px; } }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_section2,
+      #philips_m_00 #philips_m_01 .phi_section3,
+      #philips_m_00 #philips_m_01 .phi_section4,
+      #philips_m_00 #philips_m_01 .phi_section5,
+      #philips_m_00 #philips_m_01 .phi_section6,
+      #philips_m_00 #philips_m_01 .phi_section7 {
+        text-align: center;
+        padding: 40px 10px; } }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_section2-img,
+      #philips_m_00 #philips_m_01 .phi_section3-img,
+      #philips_m_00 #philips_m_01 .phi_section4-img,
+      #philips_m_00 #philips_m_01 .phi_section5-img,
+      #philips_m_00 #philips_m_01 .phi_section6-img,
+      #philips_m_00 #philips_m_01 .phi_section7-img {
+        margin-bottom: 15px; } }
+    #philips_m_00 #philips_m_01 .phi_section2-text,
+    #philips_m_00 #philips_m_01 .phi_section3-text,
+    #philips_m_00 #philips_m_01 .phi_section4-text,
+    #philips_m_00 #philips_m_01 .phi_section5-text,
+    #philips_m_00 #philips_m_01 .phi_section6-text,
+    #philips_m_00 #philips_m_01 .phi_section7-text {
+      padding-left: 0;
+      padding-top: 30px;
+      font-size: 16px;
+      color: #00427c;
+      line-height: 1.5; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section2-text,
+        #philips_m_00 #philips_m_01 .phi_section3-text,
+        #philips_m_00 #philips_m_01 .phi_section4-text,
+        #philips_m_00 #philips_m_01 .phi_section5-text,
+        #philips_m_00 #philips_m_01 .phi_section6-text,
+        #philips_m_00 #philips_m_01 .phi_section7-text {
+          padding-top: 10px; } }
+    #philips_m_00 #philips_m_01 .phi_section2-icons,
+    #philips_m_00 #philips_m_01 .phi_section3-icons,
+    #philips_m_00 #philips_m_01 .phi_section4-icons,
+    #philips_m_00 #philips_m_01 .phi_section5-icons,
+    #philips_m_00 #philips_m_01 .phi_section6-icons,
+    #philips_m_00 #philips_m_01 .phi_section7-icons {
+      margin-top: 25px; }
+      #philips_m_00 #philips_m_01 .phi_section2-icons img,
+      #philips_m_00 #philips_m_01 .phi_section3-icons img,
+      #philips_m_00 #philips_m_01 .phi_section4-icons img,
+      #philips_m_00 #philips_m_01 .phi_section5-icons img,
+      #philips_m_00 #philips_m_01 .phi_section6-icons img,
+      #philips_m_00 #philips_m_01 .phi_section7-icons img {
+        margin-right: 3px;
+        width: 50px;
+        height: 50px; }
+        @media (max-width: 1199px) {
+          #philips_m_00 #philips_m_01 .phi_section2-icons img,
+          #philips_m_00 #philips_m_01 .phi_section3-icons img,
+          #philips_m_00 #philips_m_01 .phi_section4-icons img,
+          #philips_m_00 #philips_m_01 .phi_section5-icons img,
+          #philips_m_00 #philips_m_01 .phi_section6-icons img,
+          #philips_m_00 #philips_m_01 .phi_section7-icons img {
+            margin-top: 5px; } }
+        @media (max-width: 959px) {
+          #philips_m_00 #philips_m_01 .phi_section2-icons img,
+          #philips_m_00 #philips_m_01 .phi_section3-icons img,
+          #philips_m_00 #philips_m_01 .phi_section4-icons img,
+          #philips_m_00 #philips_m_01 .phi_section5-icons img,
+          #philips_m_00 #philips_m_01 .phi_section6-icons img,
+          #philips_m_00 #philips_m_01 .phi_section7-icons img {
+            margin: 5px 3px; } }
+  #philips_m_00 #philips_m_01 .phi_configurator-box {
+    text-align: center;
+    cursor: pointer; }
+    #philips_m_00 #philips_m_01 .phi_configurator-box::after {
+      content: "";
+      background: url(../img/elipsa.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      display: inline-block; }
+  #philips_m_00 #philips_m_01 .phi_configurator-img {
+    transition: all 0.2s ease-in; }
+    #philips_m_00 #philips_m_01 .phi_configurator-img:hover {
+      transform: scale(1.05); }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_configurator-img:hover {
+        transform: scale(1); } }
+  #philips_m_00 #philips_m_01 .phi_configurator-name {
+    color: #00427c;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "CentraleSansBold";
+    padding: 0 10px; }
+  #philips_m_00 #philips_m_01 .phi_configurator-active::after {
+    background: url(../img/checked.png);
+    background-repeat: no-repeat;
+    background-size: contain; }
+  #philips_m_00 #philips_m_01 .phi_configurator_intro {
+    padding: 60px 0;
+    background: linear-gradient(to right, #0089c4, #72b5cc); }
+    #philips_m_00 #philips_m_01 .phi_configurator_intro-heading {
+      color: #fff;
+      padding: 0 20px; }
+    #philips_m_00 #philips_m_01 .phi_configurator_intro-text {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      color: #fff; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_configurator_intro-text {
+          margin-bottom: 20px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_configurator_intro-text {
+          margin-bottom: 10px; } }
+  #philips_m_00 #philips_m_01 .phi_configurator_carousel {
+    margin: 50px 0 0;
+    position: relative;
+    width: 100%; }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_configurator_carousel {
+        margin: 25px 0 0; } }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 90px;
+      width: 30px;
+      font-size: 0;
+      border: 0;
+      cursor: pointer; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button {
+          height: 75px;
+          width: 25px; } }
+      #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--prev {
+        left: 0;
+        background-image: url(../img/arrow_left.png); }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--prev {
+            left: 8px; } }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--prev {
+            left: 15px; } }
+      #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--next {
+        right: 0;
+        background-image: url(../img/arrow_right.png); }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--next {
+            right: 8px; } }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__nav-button--next {
+            right: 15px; } }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel .agile__slides {
+      justify-content: center; }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .agile__slides {
+      justify-content: center;
+      display: flex;
+      align-items: flex-end;
+      padding-top: 20px; }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .phi_configurator-box {
+      flex: 0 0 33%; }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .agile__nav-button--prev {
+      background-image: url(../img/arrow_left-white.png); }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .agile__nav-button--prev {
+          left: 15px; } }
+    #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .agile__nav-button--next {
+      background-image: url(../img/arrow_right-white.png); }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_configurator_carousel-category .agile__nav-button--next {
+          right: 15px; } }
+  #philips_m_00 #philips_m_01 .phi_configurator-btn {
+    width: 250px;
+    margin-top: 60px;
+    cursor: pointer; }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_configurator-btn {
+        margin-top: 25px; } }
+  #philips_m_00 #philips_m_01 .phi_configurator-noResults {
+    padding: 60px 0 0; }
+    #philips_m_00 #philips_m_01 .phi_configurator-noResults h3,
+    #philips_m_00 #philips_m_01 .phi_configurator-noResults p {
+      color: #646e77; }
+    #philips_m_00 #philips_m_01 .phi_configurator-noResults p {
+      margin-top: 20px; }
+  #philips_m_00 #philips_m_01 .phi_products {
+    background: #f3f6fa;
+    padding: 60px 0; }
+    #philips_m_00 #philips_m_01 .phi_products-input {
+      margin-top: 30px;
+      border: 1px solid #c8cbce;
+      border-radius: 12px;
+      padding: 20px;
+      font-size: 16px;
+      width: 280px;
+      height: 50px;
+      font-family: "CentraleSansBook";
+      position: relative;
+      color: #00427c;
+      background: url(../img/glass.png) no-repeat;
+      transition: all 0.2s;
+      background-position: 3% center;
+      padding-left: 40px; }
+      #philips_m_00 #philips_m_01 .phi_products-input:focus {
+        box-shadow: inset 0px 2px 4px 0px rgba(1, 2, 2, 0.15); }
+      #philips_m_00 #philips_m_01 .phi_products-input::-webkit-input-placeholder {
+        color: #d0d2d5; }
+      #philips_m_00 #philips_m_01 .phi_products-input::-moz-placeholder {
+        color: #d0d2d5; }
+      #philips_m_00 #philips_m_01 .phi_products-input:-ms-input-placeholder {
+        color: #d0d2d5; }
+      #philips_m_00 #philips_m_01 .phi_products-input:-moz-placeholder {
+        color: #d0d2d5; }
+      #philips_m_00 #philips_m_01 .phi_products-input:focus {
+        outline: 0; }
+    #philips_m_00 #philips_m_01 .phi_products-slider {
+      margin-top: 50px; }
+    #philips_m_00 #philips_m_01 .phi_products-box {
+      text-align: center;
+      cursor: pointer; }
+      #philips_m_00 #philips_m_01 .phi_products-box::after {
+        content: "";
+        background: url(../img/elipsa-blue.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        display: inline-block; }
+    #philips_m_00 #philips_m_01 .phi_products-img {
+      margin: 0 auto; }
+    #philips_m_00 #philips_m_01 .phi_products-name {
+      color: #00427c;
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: "CentraleSansBold"; }
+    #philips_m_00 #philips_m_01 .phi_products-active::after {
+      background: url(../img/checked-blue.png);
+      background-repeat: no-repeat;
+      background-size: contain; }
+  #philips_m_00 #philips_m_01 .phi_info {
+    padding: 60px 0; }
+    #philips_m_00 #philips_m_01 .phi_info-intro {
+      margin-bottom: 40px; }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_info-intro {
+          margin-bottom: 25px; } }
+    #philips_m_00 #philips_m_01 .phi_info-heading {
+      margin-bottom: 80px; }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_info-heading {
+          margin-bottom: 40px; } }
+    #philips_m_00 #philips_m_01 .phi_info_overview {
+      padding: 40px 0; }
+      #philips_m_00 #philips_m_01 .phi_info_overview-box {
+        padding: 0 10px;
+        text-align: center;
+        line-height: 1.4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1; }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_info_overview-box {
+            margin-top: 60px; } }
+        #philips_m_00 #philips_m_01 .phi_info_overview-box img {
+          max-width: 180px; }
+          @media (max-width: 959px) {
+            #philips_m_00 #philips_m_01 .phi_info_overview-box img {
+              max-width: 100%; } }
+      #philips_m_00 #philips_m_01 .phi_info_overview-text {
+        color: #00427c;
+        padding: 0 5px;
+        margin-bottom: 20px; }
+        #philips_m_00 #philips_m_01 .phi_info_overview-text strong {
+          font-family: "CentraleSansBold"; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_info_overview-text {
+            font-size: 16px; } }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_info_overview-text {
+            margin-bottom: 10px; } }
+      #philips_m_00 #philips_m_01 .phi_info_overview-link {
+        width: 150px;
+        font-size: 14px;
+        margin-top: 20px; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_info_overview-link {
+            width: 125px; } }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_info_overview-link {
+            width: 70%; } }
+    #philips_m_00 #philips_m_01 .phi_info-filtr {
+      display: flex;
+      position: relative; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_info-filtr {
+          margin-top: 20px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_info-filtr {
+          display: block; } }
+      #philips_m_00 #philips_m_01 .phi_info-filtr-or {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        color: #00427c;
+        font-family: "CentraleSansBold"; }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_info-filtr-or {
+            margin-top: 35px; } }
+  #philips_m_00 #philips_m_01 .phi_instructions {
+    margin-top: 60px; }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_instructions {
+        margin-top: 40px; } }
+    #philips_m_00 #philips_m_01 .phi_instructions-heading {
+      margin-top: 60px;
+      margin-bottom: 25px; }
+    #philips_m_00 #philips_m_01 .phi_instructions-table {
+      border-radius: 10px;
+      background-color: #c5e6f9;
+      width: 100%; }
+      #philips_m_00 #philips_m_01 .phi_instructions-table-th {
+        color: #fff;
+        background-color: #00427c;
+        text-transform: uppercase;
+        padding: 33px 15px 35px;
+        border: 1px solid #fff;
+        font-size: 16px;
+        font-family: "CentraleSansBold";
+        line-height: 1.4; }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_instructions-table-th {
+            padding: 20px 10px 20px;
+            font-size: 12px; } }
+        #philips_m_00 #philips_m_01 .phi_instructions-table-th:nth-of-type(1) {
+          border-top-left-radius: 10px; }
+        #philips_m_00 #philips_m_01 .phi_instructions-table-th:nth-of-type(2) {
+          border-top-right-radius: 10px; }
+      #philips_m_00 #philips_m_01 .phi_instructions-table td {
+        padding: 25px 15px;
+        border: 1px solid #fff;
+        color: #00427c;
+        font-size: 18px; }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_instructions-table td {
+            padding: 20px 15px;
+            font-size: 16px; } }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_instructions-table td {
+            padding: 10px;
+            font-size: 14px; } }
+        #philips_m_00 #philips_m_01 .phi_instructions-table td:nth-of-type(1) {
+          font-family: "CentraleSansBold";
+          text-align: center;
+          font-size: 22px; }
+          @media (max-width: 799px) {
+            #philips_m_00 #philips_m_01 .phi_instructions-table td:nth-of-type(1) {
+              font-size: 20px; } }
+          @media (max-width: 479px) {
+            #philips_m_00 #philips_m_01 .phi_instructions-table td:nth-of-type(1) {
+              font-size: 16px; } }
+    #philips_m_00 #philips_m_01 .phi_instructions_box {
+      display: flex;
+      align-items: center;
+      padding: 15px 0; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_instructions_box {
+          padding: 15px; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_instructions_box {
+          flex-direction: column;
+          text-align: center; } }
+      #philips_m_00 #philips_m_01 .phi_instructions_box-img {
+        margin-right: 15px;
+        flex: 0 0 25%; }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_instructions_box-img {
+            margin: 0;
+            margin-bottom: 15px; } }
+      #philips_m_00 #philips_m_01 .phi_instructions_box-info h4 {
+        font-size: 21px;
+        font-family: "CentraleSansBold";
+        color: #00427c;
+        margin-bottom: 15px; }
+      #philips_m_00 #philips_m_01 .phi_instructions_box-info p {
+        color: #323232;
+        line-height: 1.4; }
+        @media (max-width: 479px) {
+          #philips_m_00 #philips_m_01 .phi_instructions_box-info p {
+            font-size: 14px; } }
+    @media (max-width: 479px) {
+      #philips_m_00 #philips_m_01 .phi_instructions-img {
+        display: block;
+        margin: 0 auto; } }
+    #philips_m_00 #philips_m_01 .phi_instructions-video {
+      display: inline-block;
+      color: #00427c;
+      margin-top: 20px;
+      display: none; }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_instructions-video {
+          margin: 5px 0 20px; } }
+      #philips_m_00 #philips_m_01 .phi_instructions-video:hover {
+        text-decoration: none; }
+        #philips_m_00 #philips_m_01 .phi_instructions-video:hover img {
+          transform: scale(1.1); }
+      #philips_m_00 #philips_m_01 .phi_instructions-video img {
+        display: block;
+        transition: all 0.2s ease-in;
+        margin: 0 auto 5px; }
+  #philips_m_00 #philips_m_01 .phi_section8 {
+    position: relative; }
+    #philips_m_00 #philips_m_01 .phi_section8_box {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%; }
+      #philips_m_00 #philips_m_01 .phi_section8_box .phi_wrapper {
+        height: 100%;
+        position: relative; }
+      #philips_m_00 #philips_m_01 .phi_section8_box-info {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 50%; }
+        @media (max-width: 1199px) {
+          #philips_m_00 #philips_m_01 .phi_section8_box-info {
+            top: 0;
+            transform: translateY(0);
+            width: 100%;
+            text-align: center;
+            padding: 30px 20px; } }
+        @media (max-width: 799px) {
+          #philips_m_00 #philips_m_01 .phi_section8_box-info {
+            padding: 30px 10px; } }
+    @media (max-width: 1199px) {
+      #philips_m_00 #philips_m_01 .phi_section8-des {
+        display: none; } }
+    #philips_m_00 #philips_m_01 .phi_section8-lg {
+      display: none; }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_section8-lg {
+          display: block; } }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section8-lg {
+          display: none; } }
+    #philips_m_00 #philips_m_01 .phi_section8-sm {
+      display: none; }
+      @media (max-width: 799px) {
+        #philips_m_00 #philips_m_01 .phi_section8-sm {
+          display: block; } }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_section8-sm {
+          display: none; } }
+    #philips_m_00 #philips_m_01 .phi_section8-xs {
+      display: none; }
+      @media (max-width: 479px) {
+        #philips_m_00 #philips_m_01 .phi_section8-xs {
+          display: block; } }
+    #philips_m_00 #philips_m_01 .phi_section8-heading {
+      width: 100%; }
+    #philips_m_00 #philips_m_01 .phi_section8-text {
+      padding-left: 0;
+      padding-top: 25px;
+      font-size: 16px;
+      color: #00427c;
+      line-height: 1.5;
+      width: 100%; }
+      #philips_m_00 #philips_m_01 .phi_section8-text strong {
+        font-family: "CentraleSansBold"; }
+      @media (max-width: 1199px) {
+        #philips_m_00 #philips_m_01 .phi_section8-text {
+          padding-top: 10px; } }
+  #philips_m_00 #philips_m_01 .phi_section9 {
+    padding: 60px 0;
+    background-color: #f3f7fa; }
+    #philips_m_00 #philips_m_01 .phi_section9-box {
+      margin-top: 50px;
+      text-align: center; }
+    #philips_m_00 #philips_m_01 .phi_section9-img {
+      cursor: pointer;
+      transition: all 0.2s ease-in; }
+      #philips_m_00 #philips_m_01 .phi_section9-img:hover {
+        transform: scale(1.03); }
+    #philips_m_00 #philips_m_01 .phi_section9-text {
+      padding: 20px 15px;
+      background: #fff;
+      border-radius: 5px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: none;
+      margin-top: 15px;
+      line-height: 1.4;
+      font-size: 14px;
+      color: #00427c; }
+      #philips_m_00 #philips_m_01 .phi_section9-text strong {
+        font-family: "CentraleSansBold"; }
+  #philips_m_00 #philips_m_01 .phi_section10 {
+    padding: 70px 0 80px;
+    background: linear-gradient(#00446b, #0087d7); }
+    @media (max-width: 799px) {
+      #philips_m_00 #philips_m_01 .phi_section10 {
+        padding: 60px 0; } }
+  #philips_m_00 #philips_m_01 .phi_effect_left {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_left h3 {
+      opacity: 0;
+      -webkit-transform: translateX(-50px);
+      transform: translateX(-50px);
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_left img {
+      opacity: 0;
+      -webkit-transform: translateX(-50px);
+      transform: translateX(-50px);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1); }
+  #philips_m_00 #philips_m_01 .phi_effect_right {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_right h3 {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+      transform: translateX(50px);
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_right img {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+      transform: translateX(50px);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1); }
+  #philips_m_00 #philips_m_01 .phi_effect_active {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_active h3 {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #philips_m_00 #philips_m_01 .phi_effect_active img {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1); }
